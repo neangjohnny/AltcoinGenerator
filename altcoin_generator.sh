@@ -18,9 +18,9 @@ COIN_NAME="BulaCoin"
 COIN_UNIT="BULA"
 # 42 million coins at total (litecoin total supply is 84000000)
 TOTAL_SUPPLY=99000000
-MAINNET_PORT="54321"
-TESTNET_PORT="54322"
-PHRASE="Some newspaper headline that describes something that happened today"
+MAINNET_PORT="59321"
+TESTNET_PORT="59322"
+PHRASE="Three two one bula"
 # First letter of the wallet address. Check https://en.bitcoin.it/wiki/Base58Check_encoding
 PUBKEY_CHAR="20"
 # number of blocks to wait to be able to spend coinbase UTXO's
@@ -31,7 +31,7 @@ CHAIN="-regtest"
 PREMINED_AMOUNT=10000000
 
 # warning: change this to your own pubkey to get the genesis block mining reward
-GENESIS_REWARD_PUBKEY=044e0d4bc823e20e14d66396a64960c993585400c53f1e6decb273f249bfeba0e71f140ffa7316f2cdaaae574e7d72620538c3e7791ae9861dfe84dd2955fc85e8
+GENESIS_REWARD_PUBKEY=02c26166372fb9485c98a705de94c4dd7a06dfc9d44ce79deb7c4379666fe37b48
 
 # dont change the following variables unless you know what you are doing
 LITECOIN_BRANCH=0.16
