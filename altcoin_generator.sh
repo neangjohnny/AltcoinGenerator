@@ -14,10 +14,10 @@
 # CHAIN variable below
 
 # change the following variables to match your new coin
-COIN_NAME="MyCoin"
-COIN_UNIT="MYC"
+COIN_NAME="BulaCoin"
+COIN_UNIT="BULA"
 # 42 million coins at total (litecoin total supply is 84000000)
-TOTAL_SUPPLY=42000000
+TOTAL_SUPPLY=99000000
 MAINNET_PORT="54321"
 TESTNET_PORT="54322"
 PHRASE="Some newspaper headline that describes something that happened today"
@@ -28,7 +28,7 @@ COINBASE_MATURITY=100
 # leave CHAIN empty for main network, -regtest for regression network and -testnet for test network
 CHAIN="-regtest"
 # this is the amount of coins to get as a reward of mining the block of height 1. if not set this will default to 50
-#PREMINED_AMOUNT=10000
+PREMINED_AMOUNT=10000000
 
 # warning: change this to your own pubkey to get the genesis block mining reward
 GENESIS_REWARD_PUBKEY=044e0d4bc823e20e14d66396a64960c993585400c53f1e6decb273f249bfeba0e71f140ffa7316f2cdaaae574e7d72620538c3e7791ae9861dfe84dd2955fc85e8
