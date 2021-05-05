@@ -17,7 +17,7 @@
 COIN_NAME="BulaCoin"
 COIN_UNIT="BULA"
 # 42 million coins at total (litecoin total supply is 84000000)
-TOTAL_SUPPLY=99000000
+TOTAL_SUPPLY=99000000000
 MAINNET_PORT="59321"
 TESTNET_PORT="59322"
 PHRASE="Three two one bula"
@@ -28,7 +28,7 @@ COINBASE_MATURITY=100
 # leave CHAIN empty for main network, -regtest for regression network and -testnet for test network
 CHAIN="-regtest"
 # this is the amount of coins to get as a reward of mining the block of height 1. if not set this will default to 50
-PREMINED_AMOUNT=10000000
+PREMINED_AMOUNT=200000000
 
 # warning: change this to your own pubkey to get the genesis block mining reward
 GENESIS_REWARD_PUBKEY=02c26166372fb9485c98a705de94c4dd7a06dfc9d44ce79deb7c4379666fe37b48
